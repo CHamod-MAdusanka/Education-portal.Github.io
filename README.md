@@ -16,7 +16,7 @@ Frontend: HTML5, CSS3 (Bootstrap 5)
 Logic: Vanilla JavaScript (for filtering and rendering)
 
 # 📂 Project Structure
-![Education Portal Folder Structure] (<File structure.png>)
+![Education Portal Folder Structure](image/File structure.png)
 
 # 🚀 Getting Started
 Clone this repository or download the ZIP file.
