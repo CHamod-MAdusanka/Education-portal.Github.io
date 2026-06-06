@@ -1,47 +1,57 @@
-# Education-portal.Github.io
-# 📚 Past Papers Portal
+📚 Past Papers Portal
+A simple, fast, and user-friendly web portal designed to help students browse, search, and download educational past papers with ease.
 
-A simple, fast, and user-friendly web portal to browse, search, and download educational past papers. 
+# ✨ Key Features
+🔍 Dynamic Search: Instantly locate papers by title or subject.
 
-## ✨ Features
-* **Dynamic Search:** Instantly search for papers by title or subject.
-* **Category Filters:** Filter past papers easily using subject buttons (e.g., Mathematics, Art, Dancing).
-* **Direct Downloads:** One-click download/view for PDF files.
-* **Responsive Design:** Clean and modern UI built with Bootstrap 5.
+📂 Category Filters: Seamlessly filter through subjects (e.g., Mathematics, Art, Dancing).
 
-## 🛠️ Technologies Used
-* **HTML5**
-* **CSS3** (Bootstrap 5 via CDN & Custom CSS)
-* **JavaScript** (Vanilla JS for dynamic rendering, searching, and filtering)
+📥 Direct Downloads: View or download PDFs with a single click.
 
-## 📂 Folder Structure
-\`\`\`text
-#  ── css/
-# │   └── style.css          # Custom styling
-# ├── static/                # Directory containing all the PDF files
-# │   ├── 2014-dancing.pdf
-# │   ├── 2017-art.pdf
-# │   ├── 2017-mathematics.pdf
-# │   └── 2019-sinhala.pdf
-# ├── index.html             # Main HTML layout
-# ├── app.js                 # Core JavaScript logic
-# └── README.md              # Project documentation
-\`\`\`
+📱 Responsive Design: Clean, modern interface powered by Bootstrap 5.
 
-## 🚀 How to Run Locally
-1. Clone this repository or download the ZIP file.
-2. Make sure all your PDF files are placed inside the `static/` folder.
-3. Open `index.html` in your favorite web browser.
-4. You are good to go!
+🛠️ Technologies Used
+Frontend: HTML5, CSS3 (Bootstrap 5)
 
-## 📝 How to Add New Papers
-To add a new past paper to the portal, follow these two simple steps:
+Logic: Vanilla JavaScript (for filtering and rendering)
 
-1. Place the new PDF file inside the `static/` folder.
-2. Open `app.js` and add a new entry to the `allPapers` array like this:
-\`\`\`javascript
-{ title: "2020 Science Paper", subject: "Science", url: "static/2020-science.pdf" }
-\`\`\`
+# 📂 Project Structure
+Plaintext
+education-portal/
+├── css/
+│   └── style.css          # Custom aesthetic styling
+├── static/                # All downloadable PDF files
+│   ├── 2014-dancing.pdf
+│   ├── 2017-art.pdf
+│   ├── 2017-mathematics.pdf
+│   └── 2019-sinhala.pdf
+├── index.html             # Main portal interface
+├── app.js                 # Core search and filter logic
+└── README.md              # Project documentation
 
----
-*Built with ❤️ for educational purposes.*
+
+# 🚀 Getting Started
+Clone this repository or download the ZIP file.
+
+Add your files: Place any additional PDF papers into the static/ folder.
+
+Launch: Open index.html in your preferred web browser.
+
+
+# 📝 How to Add New Papers
+To keep the portal updated, follow these two simple steps:
+
+Upload: Place your new PDF file into the static/ folder.
+
+Register: Open app.js and add a new entry to the allPapers array:
+
+JavaScript
+// Example entry for app.js
+{ 
+    title: "2020 Science Paper", 
+    subject: "Science", 
+    url: "static/2020-science.pdf" 
+}
+
+# Built with ❤️ for educational accessibility.
+
