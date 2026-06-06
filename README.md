@@ -16,19 +16,7 @@ Frontend: HTML5, CSS3 (Bootstrap 5)
 Logic: Vanilla JavaScript (for filtering and rendering)
 
 # 📂 Project Structure
-Plaintext
-education-portal/
-├── css/
-│   └── style.css          # Custom aesthetic styling
-├── static/                # All downloadable PDF files
-│   ├── 2014-dancing.pdf
-│   ├── 2017-art.pdf
-│   ├── 2017-mathematics.pdf
-│   └── 2019-sinhala.pdf
-├── index.html             # Main portal interface
-├── app.js                 # Core search and filter logic
-└── README.md              # Project documentation
-
+![Education Portal Folder Structure] (<File structure.png>)
 
 # 🚀 Getting Started
 Clone this repository or download the ZIP file.
